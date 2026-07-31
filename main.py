@@ -4,8 +4,8 @@ import datetime as dt
 import pandas as pd
 import os
 
-email=os.environ.get("MY_EMAIL")
-password=os.environ.get("MY_PASSWORD")
+email=os.environ.get("email")
+password=os.environ.get("password")
 
 current_date=dt.datetime.now()
 
